@@ -15,9 +15,11 @@ I'm Robert Schmidt, a Linux Systems Administrator by day and distracted by night
 +--      {.section}
 Contact
 =======
-phone: 613-699-6991
-email: rob@ayr.ca
-twitter: [rjeschmi](http://twitter.com/rjeschmi)
+<ul>
+<li>phone: 613-699-6991</li>
+<li>email: rob@ayr.ca</li>
+<li>twitter: [rjeschmi](http://twitter.com/rjeschmi)</li>
+</ul>
 
 =--
 
