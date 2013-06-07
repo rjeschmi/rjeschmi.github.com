@@ -18,7 +18,7 @@ Contact
 <ul>
 <li>phone: 613-699-6991</li>
 <li>email: rob@ayr.ca</li>
-<li>twitter: [rjeschmi](http://twitter.com/rjeschmi)</li>
+<li>twitter: <a href="http://twitter.com/rjeschmi">rjeschmi</a></li>
 </ul>
 
 =--
