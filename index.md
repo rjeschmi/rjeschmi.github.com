@@ -2,7 +2,10 @@
 layout: page
 title: Home
 tagline: Supporting tagline
+section: Home
 ---
+
+<img class='inset right' src='/images/RobPort.jpg' title='Rob Schmidt' alt='Photo of Rob' width='120px' />
 
 Hi
 ==
