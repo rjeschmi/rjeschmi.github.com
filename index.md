@@ -1,5 +1,5 @@
 ---
-layout: page
+layout: default
 title: Home
 tagline: Supporting tagline
 section: Home
