@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Home
+title: Hi
 tagline: This is the first page.
 section: Home
 ---
