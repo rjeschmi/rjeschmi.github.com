@@ -1,14 +1,12 @@
 ---
-layout: default
+layout: page
 title: Home
-tagline: Supporting tagline
+tagline: This is the first page.
 section: Home
 ---
 
 <img class='inset right' src='/images/RobPort.jpg' title='Rob Schmidt' alt='Photo of Rob' width='120px' />
 
-Hi
-==
 
 I'm Robert Schmidt, a Linux Systems Administrator by day and distracted by night. My day job is with [Canadiana](http://canadiana.ca) where I dream up new ways to do things cheaper but not always simpler.
 
