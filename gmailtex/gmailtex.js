@@ -862,7 +862,8 @@ function va_lmj(){
 	'  attributes: {'+
 	'    mathcolor: "blue",'+
 	'  }'+
-	'}'+
+	'},'+
+  'extensions: ["AMSmath.js", "AMSsymbols.js"],'+
 	'},'+	
  	'"HTML-CSS": { }'+
 	'});'+
