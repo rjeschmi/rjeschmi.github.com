@@ -1,4 +1,12 @@
-h2. Comparison on compression
+---
+layout: post
+title: "ZFS compression comparison"
+description: ""
+category: 
+tags: []
+---
+
+## Comparison on compression
 
 compression off
 <pre>
@@ -30,7 +38,7 @@ Latency             39236us     505us     535us   79344us      29us     120us
 root@romano:/cihmz/collections/bonnie#
 </pre>
 
-with compression
+### with compression
 <pre>
 root@romano:/cihmz/collections/bonnie# bonnie++ -u rob
 Using uid:1102, gid:100.
@@ -59,7 +67,7 @@ Latency             33507us     459us     526us   81003us      46us   31141us
 1.96,1.96,romano,1,1389789469,252G,,136,99,727595,96,369089,87,299,99,812572,82,195.1,19,16,,,,,14634,86,+++++,+++,15918,88,12799,99,+++++,+++,13486,85,108ms,47593us,120ms,59908us,80766us,206ms,33507us,459us,526us,81003us,46us,31141us
 </pre>
 
-h2. parallelism and bonnie
+## parallelism and bonnie
 
 <pre>
 
