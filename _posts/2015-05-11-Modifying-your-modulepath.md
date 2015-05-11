@@ -37,7 +37,7 @@ There is an easy commandline option to do the same thing: `module use`
 # module use to prepend new paths
 
 
-say for some instance you clear all your MODULEPATH out (perhaps you don't have the StdEnv module loaded). In this case you will only see the modules available in the default Core path.
+Say, for some reason, you clear all your MODULEPATH out (perhaps you don't have the StdEnv module loaded). In this case you will only see the modules available in the default Core path.
 
 ```sh
 
