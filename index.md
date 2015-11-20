@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Hi
-tagline: This is the first page.
+tagline: This is my site.
 section: Home
 published: true
 ---
