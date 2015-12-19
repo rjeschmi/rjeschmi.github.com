@@ -13,7 +13,19 @@ tags: []
 
 In the scientific software domain, we have somewhat different requirements and I want to highlight how you might use `nix` to build scientific software and limitations in its use.
 
-`Nix` uses a language that is functional. This makes it very expressive and fairly easy to make changes that have significant impact on your software tree.
+`Nix` uses a functional language as its configuration language. This makes it very expressive and fairly easy to make changes that have significant impact on your software tree.
+
+If you wanted to change the gcc version used to build bzip you could do something like:
+
+```sh
+bzip2 = callPackage ../tools/compression/bzip2 { };
+
+
+bzip2 = callPackage ../tools/compression/bzip2 { stdenv = overrideCC stdenv gcc5; };
+
+```
+
+## Building something more scientific
 
 For example, to build boost in `nix` is pretty easy
 
