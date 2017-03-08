@@ -11,9 +11,9 @@ tags: []
 
 `Nix` has received a lot of attention. It is an interesting concept and worth considering as a system to build an OS.
 
-In the scientific software domain, we have somewhat different requirements and I want to highlight how you might use `nix` to build scientific software and limitations in its use.
+In the scientific software domain, we have somewhat different requirements and I intend to highlight how you might use `nix` to build scientific software and limitations in its use.
 
-`Nix` uses a functional language as its configuration language. This makes it very expressive and fairly easy to make changes that have significant impact on your software tree.
+The `Nix` expression language is "a pure lazy functional language"[1]. This makes it fairly easy to make changes that have significant impact on your software tree.
 
 If you wanted to change the gcc version used to build bzip you could do something like:
 
@@ -70,3 +70,7 @@ fetching path ‘/nix/store/8yg6znnpiwc8i59h6fyk0xyzr97vkgjl-boost-1.59.0’...
 building path(s) ‘/nix/store/00rgybcn2i0vpygkhxcq6h67612l5xnn-user-environment’
 
 ```
+
+# References
+
+[1]: https://nixos.org/nix/manual/#ch-expression-language
